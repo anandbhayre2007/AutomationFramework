@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test thread-count="5" name="Testing support page 3">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="testScripts.Tc_Support_02"/>
+    </classes>
+  </test> <!-- Testing support page 3 -->
+</suite> <!-- Failed suite [Suite] -->
